@@ -1,0 +1,33 @@
+html{color-scheme:dark;background:#111113}body{margin:0;background:#111113;font-family:Inter,Arial,sans-serif}button,input,textarea,select{font:inherit}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid #dceac7;outline-offset:3px}
+#nodo-conversaciones{font-size:16px;max-width:1640px;margin:auto}
+#nodo-conversaciones .n8-shell{min-height:100svh;border-radius:0;border:0;grid-template-columns:232px minmax(0,1fr)}
+#nodo-conversaciones .n8-main{padding:30px 32px 40px}
+#nodo-conversaciones .n8-sidebar{padding:28px 16px;gap:28px}
+#nodo-conversaciones .n8-nav>button{font-size:14px;min-height:46px}
+#nodo-conversaciones .n8-topbar{padding:16px 32px;font-size:14px}
+#nodo-conversaciones .n8-companies>button{font-size:14px}
+#nodo-conversaciones .n8-own b{font-size:14px}
+#nodo-conversaciones small,#nodo-conversaciones .n8-side-label,#nodo-conversaciones .n8-kicker{font-size:12px}
+#nodo-conversaciones .n8-button{font-size:14px;min-height:40px}
+#nodo-conversaciones .n8-quiet{font-size:12px}
+#nodo-conversaciones .n8-tabs>button{font-size:14px}
+#nodo-conversaciones .n8-heading p,#nodo-conversaciones .n8-company-title p,#nodo-conversaciones .n8-space-card>p,#nodo-conversaciones .n8-room small,#nodo-conversaciones .n8-private-brief p,#nodo-conversaciones .n8-note{font-size:14px;line-height:1.65}
+#nodo-conversaciones .n8-space-title,#nodo-conversaciones .n8-room b{font-size:16px}
+#nodo-conversaciones .n8-field,#nodo-conversaciones .n8-field select,#nodo-conversaciones input,#nodo-conversaciones textarea{font-size:16px}
+#nodo-conversaciones .n12-row{padding:18px;grid-template-columns:44px minmax(0,1fr) auto}
+#nodo-conversaciones .n12-row-title strong{font-size:16px}
+#nodo-conversaciones .n12-row-context,#nodo-conversaciones .n12-row-preview{font-size:13px}
+#nodo-conversaciones .n12-types>button,#nodo-conversaciones .n12-company-filter select{font-size:14px;min-height:40px}
+#nodo-conversaciones .n12-search>label,#nodo-conversaciones .n12-company-filter,#nodo-conversaciones .n12-person-filter{font-size:14px}
+#nodo-conversaciones .n12-list-meta,#nodo-conversaciones .n12-kind,#nodo-conversaciones .n12-personal-badge,#nodo-conversaciones .n12-row-access{font-size:12px}
+#nodo-conversaciones .n12-row-end{max-width:160px}
+#nodo-conversaciones .n8-modal{max-width:720px}
+#nodo-conversaciones .n8-modal p,#nodo-conversaciones .n8-evidence-note{font-size:14px;line-height:1.65}
+#nodo-conversaciones .n12-dm-identities b,#nodo-conversaciones .n12-contact-pick b{font-size:16px}
+#nodo-conversaciones .n11-person-role,#nodo-conversaciones .n11-person-name{font-size:16px}
+#nodo-conversaciones .n11-person-area,#nodo-conversaciones .n11-person-company,#nodo-conversaciones .n11-shared-spaces button{font-size:14px}
+#nodo-conversaciones .nodo-demo-banner{padding:10px 32px;font-size:12px;background:#232229;color:#c9c5d3;border-bottom:1px solid #38383e;line-height:1.6}
+#nodo-conversaciones .nodo-back{margin:0 0 18px;min-height:40px}
+@media(max-width:1050px){#nodo-conversaciones .n8-shell{grid-template-columns:190px minmax(0,1fr)}#nodo-conversaciones .n8-main{padding:24px}#nodo-conversaciones .n8-sidebar{padding:24px 12px}}
+@media(max-width:850px){#nodo-conversaciones .n8-shell{grid-template-columns:104px minmax(0,1fr)}#nodo-conversaciones .n8-nav>button{font-size:12px;padding:10px 2px;flex-direction:column}#nodo-conversaciones .n8-sidebar{padding:24px 8px}#nodo-conversaciones .n8-main{padding:22px}#nodo-conversaciones .n8-topbar{padding:14px 22px}#nodo-conversaciones .nodo-demo-banner{padding:10px 22px}}
+@media(max-width:650px){#nodo-conversaciones .n8-shell{grid-template-columns:1fr}#nodo-conversaciones .n8-sidebar{padding:16px;gap:14px}#nodo-conversaciones .n8-nav>button{min-height:55px;font-size:12px}#nodo-conversaciones .n8-main{padding:24px 16px}#nodo-conversaciones .n8-topbar{padding:12px 16px}#nodo-conversaciones .nodo-demo-banner{padding:10px 16px}#nodo-conversaciones .n12-row{grid-template-columns:36px minmax(0,1fr);padding:14px 12px}#nodo-conversaciones .n12-row-end{max-width:none}#nodo-conversaciones .n12-company-filter{font-size:14px}#nodo-conversaciones .n8-tabs{gap:15px}#nodo-conversaciones .n8-tabs>button{font-size:13px}#nodo-conversaciones .n8-heading h1{font-size:26px}}

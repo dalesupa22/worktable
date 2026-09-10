@@ -1,0 +1,6 @@
+#nodo-conversaciones .n8-nav>button[aria-current=page]{background:#ecebef;color:#19191d}
+#nodo-conversaciones .n8-heading .n8-kicker:empty{display:none}
+@media(max-width:650px){
+ #nodo-conversaciones .n8-nav{grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}
+ #nodo-conversaciones .n8-nav>button{flex-direction:row;justify-content:center;gap:7px;min-height:44px;padding:9px 3px;font-size:11px}
+}

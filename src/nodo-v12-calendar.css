@@ -1,0 +1,121 @@
+#nodo-conversaciones .n9-cal{min-width:0}
+#nodo-conversaciones .n9-cal-heading{display:flex;gap:18px;justify-content:space-between;align-items:center;margin-bottom:13px}
+#nodo-conversaciones .n9-cal-heading p{font-size:12px;color:var(--n8-muted);margin-top:8px;line-height:1.7}
+#nodo-conversaciones .n9-cal-demo{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:11px;color:var(--n8-purple);margin:10px 0 20px}
+#nodo-conversaciones .n9-cal-filters{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:12px;margin-bottom:22px}
+#nodo-conversaciones .n9-cal-filters label,#nodo-conversaciones .n9-cal-form>label,#nodo-conversaciones .n9-cal-form-grid>label{display:grid;gap:7px;min-width:0;color:var(--n8-muted);font-size:11px}
+#nodo-conversaciones .n9-cal-filters select,#nodo-conversaciones .n9-cal-form select,#nodo-conversaciones .n9-cal-form input:not([type=checkbox]){display:block;box-sizing:border-box;min-width:0;max-width:100%;width:100%;min-height:39px;border:1px solid var(--n8-border);background:var(--n8-surface);color:var(--n8-ink);border-radius:8px;padding:9px;font:inherit;font-size:12px}
+#nodo-conversaciones .n9-cal-toolbar{display:flex;gap:14px;justify-content:space-between;align-items:center;flex-wrap:wrap;margin-bottom:16px}
+#nodo-conversaciones .n9-cal-period{display:flex;gap:9px;align-items:center;min-width:0}
+#nodo-conversaciones .n9-cal-period h3{font-size:14px;font-weight:500;text-transform:capitalize;min-width:0}
+#nodo-conversaciones .n9-cal-controls{display:flex;gap:10px;align-items:center}
+#nodo-conversaciones .n9-cal-mode{display:flex;gap:3px;background:var(--n8-surface);padding:3px;border:1px solid var(--n8-border);border-radius:9px}
+#nodo-conversaciones .n9-cal-mode button{background:transparent;border:0;color:var(--n8-muted);border-radius:6px;min-height:32px;font-size:12px;padding:6px 10px}
+#nodo-conversaciones .n9-cal-mode button[aria-pressed=true]{background:var(--n8-green);color:#252b1e}
+#nodo-conversaciones .n9-cal-week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:7px;margin-bottom:20px}
+#nodo-conversaciones .n9-cal-date,#nodo-conversaciones .n9-cal-month-date{background:var(--n8-surface);color:var(--n8-ink);border:1px solid var(--n8-border);border-radius:10px;padding:11px 3px;min-width:0;display:grid;gap:7px;text-align:center;justify-items:center;align-content:center;font-size:12px;cursor:pointer}
+#nodo-conversaciones .n9-cal-date>span{color:var(--n8-muted);font-size:11px}
+#nodo-conversaciones .n9-cal-date b{font-size:20px;font-weight:500}
+#nodo-conversaciones .n9-cal-date small{font-size:11px;color:var(--n8-muted);white-space:nowrap}
+#nodo-conversaciones .n9-cal-date.is-today,#nodo-conversaciones .n9-cal-month-date.is-today{border-color:var(--n8-purple)}
+#nodo-conversaciones .n9-cal-date[aria-pressed=true],#nodo-conversaciones .n9-cal-month-date[aria-pressed=true]{background:var(--n8-green);border-color:var(--n8-green);color:#252b1e}
+#nodo-conversaciones .n9-cal-date[aria-pressed=true]>span,#nodo-conversaciones .n9-cal-date[aria-pressed=true] small,#nodo-conversaciones .n9-cal-month-date[aria-pressed=true] small,#nodo-conversaciones .n9-cal-month-date[aria-pressed=true] .n9-cal-mobile-day{color:#3e4a31}
+#nodo-conversaciones .n9-cal-list-title{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:3px 0 12px;font-size:11px;color:var(--n8-muted);text-transform:capitalize}
+#nodo-conversaciones .n9-cal-day-group{margin-bottom:22px}
+#nodo-conversaciones .n9-cal-day-group>h3{font-size:12px;font-weight:500;display:flex;gap:8px;align-items:center;text-transform:capitalize;margin:2px 0 11px}
+#nodo-conversaciones .n9-cal-day-group>h3>span{background:var(--n8-purple-bg);color:var(--n8-purple);padding:3px 7px;border-radius:5px;font-size:11px}
+#nodo-conversaciones .n9-cal-event{display:flex;align-items:flex-start;gap:15px;width:100%;min-width:0;box-sizing:border-box;border:1px solid var(--n8-border);border-radius:12px;background:var(--n8-surface);color:var(--n8-ink);padding:16px 15px;text-align:left;margin-bottom:9px;font:inherit}
+#nodo-conversaciones .n9-cal-event:hover{background:var(--n8-tint)}
+#nodo-conversaciones .n9-cal-time{display:grid;gap:5px;flex:0 0 42px;font-size:13px;padding-top:1px;font-variant-numeric:tabular-nums}
+#nodo-conversaciones .n9-cal-time b{font-weight:500}
+#nodo-conversaciones .n9-cal-time small{font-size:11px;color:var(--n8-muted)}
+#nodo-conversaciones .n9-cal-event-body{min-width:0;flex:1;display:grid;gap:7px}
+#nodo-conversaciones .n9-cal-event-title{font-size:14px;font-weight:500;line-height:1.5;overflow-wrap:anywhere}
+#nodo-conversaciones .n9-cal-event-context{font-size:11px;color:var(--n8-muted);line-height:1.65}
+#nodo-conversaciones .n9-cal-event-bottom{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-top:4px}
+#nodo-conversaciones .n9-cal-provider{display:inline-flex;align-items:center;gap:6px;font-size:11px;color:var(--n8-ink);white-space:nowrap}
+#nodo-conversaciones .n9-cal-provider>b{width:22px;height:22px;display:grid;place-items:center;border-radius:5px;font-weight:500;background:var(--n8-purple);color:#342844}
+#nodo-conversaciones .n9-cal-provider.meet>b{background:#c8e0c5;color:#283c2a}
+#nodo-conversaciones .n9-cal-provider.zoom>b{background:#c2d7ef;color:#233849}
+#nodo-conversaciones .n9-cal-org{display:inline-flex;align-items:center;gap:5px;font-size:11px;color:var(--n8-muted)}
+#nodo-conversaciones .n9-cal-org .n8-logo{width:21px;height:21px;flex-basis:21px;border-radius:5px;font-size:8px}
+#nodo-conversaciones .n9-cal-row-arrow{align-self:center;color:var(--n8-muted)}
+#nodo-conversaciones .n9-cal-status,#nodo-conversaciones .n9-cal-internal{display:inline-flex;align-items:center;gap:5px;font-size:11px;color:var(--n8-purple)}
+#nodo-conversaciones .n9-cal-footer{display:flex;gap:7px;align-items:center;font-size:11px;color:var(--n8-muted);line-height:1.7;margin:18px 0 0}
+#nodo-conversaciones .n9-cal-empty{display:grid;justify-items:center;gap:10px;color:var(--n8-muted);padding:28px 15px;text-align:center;font-size:12px}
+#nodo-conversaciones .n9-cal-empty b{font-weight:500;color:var(--n8-ink)}
+#nodo-conversaciones .n9-cal-empty span{font-size:11px;line-height:1.7}
+#nodo-conversaciones .n9-cal-month{margin-bottom:20px}
+#nodo-conversaciones .n9-cal-weekdays{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));text-align:center;gap:6px;font-size:11px;color:var(--n8-muted);padding-bottom:10px}
+#nodo-conversaciones .n9-cal-month-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
+#nodo-conversaciones .n9-cal-month-date{min-height:61px;gap:4px;padding:7px 3px;border-radius:7px}
+#nodo-conversaciones .n9-cal-month-date b{font-weight:500;font-size:14px}
+#nodo-conversaciones .n9-cal-month-date small{font-size:11px;color:var(--n8-purple)}
+#nodo-conversaciones .n9-cal-month-date.is-outside{color:var(--n8-muted);background:var(--n8-bg)}
+#nodo-conversaciones .n9-cal-mobile-day{display:none;font-size:11px;color:var(--n8-muted)}
+#nodo-conversaciones .n9-cal-detail-title{display:flex;gap:13px;align-items:center;flex-wrap:wrap;color:var(--n8-muted);font-size:11px;margin:6px 0 15px}
+#nodo-conversaciones .n9-cal-detail-name{font-size:22px;font-weight:500;line-height:1.4;margin:0 0 17px;overflow-wrap:anywhere}
+#nodo-conversaciones .n9-cal-detail-meta{display:grid;gap:10px;font-size:12px;color:var(--n8-muted)}
+#nodo-conversaciones .n9-cal-detail-meta>span{display:flex;align-items:center;gap:8px;line-height:1.6}
+#nodo-conversaciones .n9-cal-detail-meta svg{flex:0 0 16px}
+#nodo-conversaciones .n9-cal-detail-actions{display:flex;gap:9px;flex-wrap:wrap;margin:22px 0 18px;align-items:center}
+#nodo-conversaciones .n9-cal-rsvp{display:flex;align-items:center;gap:8px;flex-wrap:wrap;background:var(--n8-bg);border-radius:9px;padding:12px;margin:17px 0 24px}
+#nodo-conversaciones .n9-cal-rsvp>span{font-size:11px;color:var(--n8-muted);margin-right:auto}
+#nodo-conversaciones .n9-cal-attendee-label{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin:24px 0 12px}
+#nodo-conversaciones .n9-cal-attendee-label h3{font-size:14px;font-weight:500}
+#nodo-conversaciones .n9-cal-attendee-label small{font-size:11px;color:var(--n8-muted)}
+#nodo-conversaciones .n9-cal-attendees{display:grid;gap:14px}
+#nodo-conversaciones .n9-cal-attendees>section{border:1px solid var(--n8-border);background:var(--n8-bg);padding:14px;border-radius:12px}
+#nodo-conversaciones .n9-cal-attendees>section>header{display:flex;align-items:center;gap:9px;margin-bottom:14px}
+#nodo-conversaciones .n9-cal-attendees header>.n8-logo{width:29px;height:29px;flex-basis:29px;font-size:10px;border-radius:7px}
+#nodo-conversaciones .n9-cal-attendees header h3{font-size:14px;font-weight:500}
+#nodo-conversaciones .n9-cal-attendees header small{font-size:11px;color:var(--n8-muted);margin-left:auto}
+#nodo-conversaciones .n9-cal-person-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+#nodo-conversaciones .n9-cal-person{display:flex;gap:10px;align-items:flex-start;min-width:0}
+#nodo-conversaciones .n9-cal-person>.n8-avatar-wrap{flex:0 0 36px}
+#nodo-conversaciones .n9-cal-person-avatar{display:flex;align-items:center;justify-content:center;flex:0 0 38px;min-width:0;min-height:38px;padding:0;border:0;border-radius:50%;background:transparent;color:var(--n8-ink)}
+#nodo-conversaciones .n9-cal-person>span:last-child{min-width:0;display:grid;gap:4px}
+#nodo-conversaciones .n9-cal-person b{font-size:12px;font-weight:500;line-height:1.55}
+#nodo-conversaciones .n9-cal-person small{font-size:11px;color:var(--n8-muted);line-height:1.6;overflow-wrap:anywhere}
+#nodo-conversaciones .n9-cal-person em{display:inline;color:var(--n8-purple);font-size:11px;font-style:normal}
+#nodo-conversaciones .n9-cal-reader-note{font-size:11px;color:var(--n8-muted);line-height:1.8;margin:15px 0}
+#nodo-conversaciones .n9-cal-reader-note svg{vertical-align:middle;margin-right:4px}
+#nodo-conversaciones .n9-cal-form{display:grid;gap:16px}
+#nodo-conversaciones .n9-cal-form .n9-cal-demo{margin:0 0 2px}
+#nodo-conversaciones .n9-cal-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+#nodo-conversaciones .n9-cal-invite-heading{display:grid;gap:7px;margin-top:5px}
+#nodo-conversaciones .n9-cal-invite-heading h3{font-size:14px;font-weight:500}
+#nodo-conversaciones .n9-cal-invite-heading small{font-size:11px;color:var(--n8-muted)}
+#nodo-conversaciones .n9-cal-invite-groups{display:grid;gap:13px}
+#nodo-conversaciones .n9-cal-invite-groups fieldset{border:1px solid var(--n8-border);border-radius:10px;padding:9px 13px 3px;margin:0;min-width:0}
+#nodo-conversaciones .n9-cal-invite-groups legend{font-size:12px;color:var(--n8-ink);padding:0 6px}
+#nodo-conversaciones .n9-cal-invite{display:flex;gap:10px;align-items:center;border-bottom:1px solid var(--n8-border);padding:10px 0;min-height:44px;cursor:pointer}
+#nodo-conversaciones .n9-cal-invite:last-child{border:0}
+#nodo-conversaciones .n9-cal-invite input{width:17px;height:17px;flex:0 0 17px;accent-color:var(--n8-purple);margin:0}
+#nodo-conversaciones .n9-cal-invite>span:last-child{display:grid;gap:4px;min-width:0}
+#nodo-conversaciones .n9-cal-invite b{font-size:12px;font-weight:500}
+#nodo-conversaciones .n9-cal-invite small{font-size:11px;color:var(--n8-muted);line-height:1.5;overflow-wrap:anywhere}
+#nodo-conversaciones .n9-cal-error{background:var(--n8-purple-bg);color:var(--n8-purple);padding:11px;border-radius:8px;font-size:12px;line-height:1.6}
+#nodo-conversaciones .n9-cal-form-actions{display:flex;gap:9px;justify-content:flex-end;flex-wrap:wrap;margin-top:10px}
+#nodo-conversaciones .n9-cal-next{display:flex;align-items:center;gap:9px;background:var(--n8-bg);border:1px solid var(--n8-border);border-radius:9px;padding:11px;width:100%;box-sizing:border-box;min-width:0;text-align:left;color:var(--n8-ink);margin:13px 0;font:inherit}
+#nodo-conversaciones .n9-cal-next-icon{color:var(--n8-purple);flex:0 0 16px}
+#nodo-conversaciones .n9-cal-next>span:nth-child(2){display:grid;gap:5px;min-width:0;flex:1}
+#nodo-conversaciones .n9-cal-next small{font-size:11px;color:var(--n8-muted);line-height:1.5}
+#nodo-conversaciones .n9-cal-next b{font-size:11px;font-weight:500;line-height:1.6}
+#nodo-conversaciones .n9-cal-next>.n9-cal-provider{font-size:0;gap:0}
+#nodo-conversaciones .n9-cal-next>.n9-cal-provider>b{font-size:11px}
+#nodo-conversaciones .n9-cal-next>svg{color:var(--n8-muted);flex:0 0 16px}
+#nodo-conversaciones .n9-cal-day-preview{margin:4px 0 30px}
+#nodo-conversaciones .n9-cal-day-preview>header{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:17px}
+#nodo-conversaciones .n9-cal-day-preview header small{font-size:11px;color:var(--n8-muted);display:block;margin-top:6px}
+#nodo-conversaciones .n9-cal-preview-date{font-size:11px;color:var(--n8-muted);margin:12px 0 7px}
+#nodo-conversaciones .n9-cal-connection{display:grid;gap:15px;font-size:12px;line-height:1.8}
+#nodo-conversaciones .n9-cal-connection>.n8-button{justify-self:start}
+@media(max-width:760px){#nodo-conversaciones .n9-cal-filters{grid-template-columns:1fr}#nodo-conversaciones .n9-cal-event-bottom .n9-cal-org>span:last-child{display:none}#nodo-conversaciones .n9-cal-event{gap:11px;padding:14px 12px}#nodo-conversaciones .n9-cal-date small{font-size:11px}#nodo-conversaciones .n9-cal-week{gap:5px}}
+@media(max-width:500px){#nodo-conversaciones .n9-cal-heading{align-items:flex-start;flex-wrap:wrap}#nodo-conversaciones .n9-cal-person-list{grid-template-columns:1fr}#nodo-conversaciones .n9-cal-form-grid{grid-template-columns:1fr}#nodo-conversaciones .n9-cal-rsvp>span{flex-basis:100%;margin:0 0 4px}#nodo-conversaciones .n9-cal-week{gap:3px}#nodo-conversaciones .n9-cal-count-label{display:none}#nodo-conversaciones .n9-cal-date{padding:9px 4px;gap:5px}#nodo-conversaciones .n9-cal-event-title{font-size:13px}#nodo-conversaciones .n9-cal-event-context{line-height:1.7}#nodo-conversaciones .n9-cal-time{flex-basis:36px;font-size:12px}#nodo-conversaciones .n9-cal-row-arrow{display:none}#nodo-conversaciones .n9-cal-list-title{flex-wrap:wrap}#nodo-conversaciones .n9-cal-detail-name{font-size:19px}}
+@media(max-width:400px){#nodo-conversaciones .n9-cal-month-grid{gap:2px}#nodo-conversaciones .n9-cal-month-date{min-height:55px}#nodo-conversaciones .n9-cal-period{gap:7px}#nodo-conversaciones .n9-cal-period h3{font-size:12px}#nodo-conversaciones .n9-cal-day-preview>header{align-items:flex-start;flex-wrap:wrap}}
+@media(pointer:coarse){#nodo-conversaciones .n9-cal-filters select,#nodo-conversaciones .n9-cal-form select,#nodo-conversaciones .n9-cal-form input:not([type=checkbox]){min-height:44px;font-size:16px}#nodo-conversaciones .n9-cal-mode button{min-height:44px}#nodo-conversaciones .n9-cal-date,#nodo-conversaciones .n9-cal-month-date{min-width:0}}
+
+#nodo-conversaciones .n9-cal-count-label{font-style:normal}
+#nodo-conversaciones .n9-cal-heading-actions{display:flex;gap:9px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+#nodo-conversaciones .n9-cal-visibility{display:flex;gap:7px;align-items:center;font-size:11px;color:var(--n8-purple);line-height:1.7;margin:20px 0}

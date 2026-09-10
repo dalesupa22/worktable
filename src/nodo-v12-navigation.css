@@ -1,0 +1,22 @@
+#nodo-conversaciones .n9-breadcrumb{flex:1;flex-wrap:wrap;min-width:0}
+#nodo-conversaciones .n9-breadcrumb .n8-button{padding:3px 1px;white-space:normal;text-align:left}
+#nodo-conversaciones .n9-global-scope{color:var(--n8-muted);font-size:11px;margin-left:6px}
+#nodo-conversaciones .n9-company-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+#nodo-conversaciones .n9-company-card{background:var(--n8-surface);border:1px solid var(--n8-border);padding:24px;border-radius:16px;display:flex;flex-direction:column;align-items:flex-start;gap:16px}
+#nodo-conversaciones .n9-company-card>header{display:flex;align-items:center;gap:14px}
+#nodo-conversaciones .n9-company-card p{color:var(--n8-muted);line-height:1.7;font-size:12px;flex:1}
+#nodo-conversaciones .n9-company-card small{display:block;color:var(--n8-muted);margin-top:5px;font-size:11px}
+#nodo-conversaciones .n9-space-tabs{justify-content:space-between;gap:12px;flex-wrap:wrap}
+#nodo-conversaciones .n9-space-tabs>button{display:flex;align-items:center;gap:7px}
+#nodo-conversaciones .n8-space-meta>.n8-button{margin-left:auto}
+#nodo-conversaciones .n9-chat-calendar{border-bottom:1px solid var(--n8-border);padding:12px 18px;display:flex;align-items:center;flex-wrap:wrap;gap:6px}
+#nodo-conversaciones .n9-chat-calendar>.n8-button{margin-left:auto}
+#nodo-conversaciones .n9-chat-calendar:empty{display:none}
+#nodo-conversaciones .n8-space-card footer{gap:5px;flex-wrap:wrap}
+#nodo-conversaciones .n8-space-card footer>.n8-button{font-size:11px;padding-left:2px;padding-right:2px}
+#nodo-conversaciones[data-density=compact] .n9-cal-event{padding:11px 13px;gap:11px}
+#nodo-conversaciones[data-density=compact] .n9-cal-event-body{gap:4px}
+#nodo-conversaciones[data-density=compact] .n9-cal-date{padding:8px 3px;gap:5px}
+#nodo-conversaciones .n9-cal-period h3,#nodo-conversaciones .n9-cal-list-title,#nodo-conversaciones .n9-cal-day-group>h3{text-transform:none}
+@media(min-width:651px) and (max-width:850px){#nodo-conversaciones .n8-nav>button{font-size:10px;flex-direction:column;gap:6px;padding:10px 0}}
+@media(max-width:650px){#nodo-conversaciones .n9-global-scope{display:none}#nodo-conversaciones .n9-company-grid{grid-template-columns:1fr}#nodo-conversaciones .n9-company-card{padding:18px}#nodo-conversaciones .n9-space-tabs{display:grid;grid-template-columns:1fr 1fr;gap:2px 14px}#nodo-conversaciones .n9-space-tabs>button{padding:11px 0;justify-content:flex-start}#nodo-conversaciones .n9-chat-calendar{padding:10px 12px}#nodo-conversaciones .n8-topbar{flex-wrap:wrap}#nodo-conversaciones .n9-breadcrumb{flex-basis:100%}#nodo-conversaciones .n8-topbar>.n8-button{max-width:none}}

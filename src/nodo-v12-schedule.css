@@ -1,0 +1,165 @@
+/* Company-first schedule: shared commitments, deliveries, decisions and meetings. */
+#nodo-conversaciones .n10-company-switch{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:25px}
+#nodo-conversaciones .n10-company-switch>button{display:inline-flex;align-items:center;gap:8px;padding:7px 11px 7px 7px;border:1px solid var(--n8-border);border-radius:10px;background:transparent;color:var(--n8-muted);text-align:left;font-size:12px;font-weight:500;min-height:43px}
+#nodo-conversaciones .n10-company-switch>button[aria-pressed=true]{background:var(--n8-tint);border-color:var(--n8-muted);color:var(--n8-ink)}
+#nodo-conversaciones .n10-company-switch .n8-logo{width:26px;height:26px;flex-basis:26px;border-radius:7px;font-size:10px}
+#nodo-conversaciones .n10-schedule-head{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:0 0 14px}
+#nodo-conversaciones .n10-schedule-head .n8-company-title{flex:1}
+#nodo-conversaciones .n10-schedule-head .n8-company-title p{margin-top:7px;max-width:440px}
+#nodo-conversaciones .n10-schedule-meta{display:flex;align-items:center;gap:7px;flex-wrap:wrap;color:var(--n8-muted);font-size:11px;margin-bottom:22px}
+#nodo-conversaciones .n10-schedule-meta svg{width:13px;height:13px}
+#nodo-conversaciones .n10-schedule-toolbar{display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap;padding-top:20px;border-top:1px solid var(--n8-border)}
+#nodo-conversaciones .n10-period{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+#nodo-conversaciones .n10-period h2{font-size:16px;font-weight:500;letter-spacing:-.2px}
+#nodo-conversaciones .n10-period>.n8-button{width:auto;min-height:32px;padding:6px;flex-shrink:0}
+#nodo-conversaciones .n10-period>.n8-button[aria-label]{width:32px}
+#nodo-conversaciones .n10-schedule-toolbar>label{display:flex;align-items:center;gap:8px;color:var(--n8-muted);font-size:11px;min-width:0}
+#nodo-conversaciones #n10-space-filter{max-width:230px;width:100%;min-width:0;min-height:36px;background:var(--n8-surface);border:1px solid var(--n8-border);border-radius:8px;color:var(--n8-ink);padding:7px 28px 7px 10px;font-size:12px;text-overflow:ellipsis}
+#nodo-conversaciones .n10-kinds{display:flex;gap:6px;flex-wrap:wrap;margin:18px 0 16px}
+#nodo-conversaciones .n10-kinds>button{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:6px 11px;min-height:33px;background:transparent;border:1px solid transparent;border-radius:7px;color:var(--n8-muted);font-size:12px;font-weight:500}
+#nodo-conversaciones .n10-kinds>button[aria-pressed=true]{background:var(--n8-tint);color:var(--n8-ink);border-color:var(--n8-border)}
+#nodo-conversaciones .n10-kinds>button svg{width:14px;height:14px}
+#nodo-conversaciones .n10-weekline{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px;padding-bottom:18px;border-bottom:1px solid var(--n8-border);margin-bottom:20px}
+#nodo-conversaciones .n10-weekline>button{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;min-width:0;min-height:65px;padding:8px 3px;background:transparent;border:1px solid transparent;border-radius:9px;color:var(--n8-muted);font-size:11px}
+#nodo-conversaciones .n10-weekline>button b,#nodo-conversaciones .n10-weekline>button strong{font-size:16px;font-weight:500;color:var(--n8-ink)}
+#nodo-conversaciones .n10-weekline>button small{font-size:11px;color:var(--n8-muted)}
+#nodo-conversaciones .n10-weekline>button[data-today=true]{border-color:var(--n8-purple);background:var(--n8-surface)}
+#nodo-conversaciones .n10-weekline>button[aria-pressed=true]{background:var(--n8-green);border-color:var(--n8-green);color:var(--n8-bg)}
+#nodo-conversaciones .n10-weekline>button[aria-pressed=true] b,#nodo-conversaciones .n10-weekline>button[aria-pressed=true] strong,#nodo-conversaciones .n10-weekline>button[aria-pressed=true] small{color:var(--n8-bg)}
+#nodo-conversaciones .n10-timeline{display:grid;gap:25px;margin-top:20px}
+#nodo-conversaciones .n10-day{min-width:0}
+#nodo-conversaciones .n10-day-label{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin:0 0 6px;padding-bottom:8px;border-bottom:1px solid var(--n8-border)}
+#nodo-conversaciones .n10-day-label h3{font-size:12px;font-weight:500;color:var(--n8-ink)}
+#nodo-conversaciones .n10-day-label>span{color:var(--n8-green);background:var(--n8-tint);border-radius:4px;padding:2px 6px;font-size:11px}
+#nodo-conversaciones .n10-row{display:grid;grid-template-columns:32px minmax(0,1fr) minmax(100px,138px) 28px;gap:12px;align-items:start;padding:19px 0;border-bottom:1px solid var(--n8-border)}
+#nodo-conversaciones .n10-row:last-child{border-bottom:0}
+#nodo-conversaciones .n10-type-icon{display:inline-flex;align-items:center;justify-content:center;width:31px;height:31px;border-radius:8px;background:var(--n8-tint);color:var(--n8-muted);margin-top:2px;flex-shrink:0}
+#nodo-conversaciones .n10-type-icon[data-kind=task]{color:var(--n8-green)}
+#nodo-conversaciones .n10-type-icon[data-kind=delivery]{color:var(--n8-ink)}
+#nodo-conversaciones .n10-type-icon[data-kind=decision]{color:var(--n8-purple);background:var(--n8-purple-bg)}
+#nodo-conversaciones .n10-type-icon[data-kind=meeting]{color:var(--n8-muted)}
+#nodo-conversaciones .n10-type-icon svg{width:16px;height:16px}
+#nodo-conversaciones .n10-row-body{display:grid;gap:7px;min-width:0}
+#nodo-conversaciones .n10-row-title{display:block;width:100%;padding:2px 0;border:0;background:transparent;color:var(--n8-ink);text-align:left;font-size:13px;font-weight:500;line-height:1.5;overflow-wrap:anywhere}
+#nodo-conversaciones .n10-row-title:hover{text-decoration:underline;text-decoration-color:var(--n8-muted);text-underline-offset:4px}
+#nodo-conversaciones .n10-row-context{display:flex;align-items:center;gap:5px;flex-wrap:wrap;font-size:11px;color:var(--n8-muted);line-height:1.6;overflow-wrap:anywhere}
+#nodo-conversaciones .n10-row-context svg{width:12px;height:12px}
+#nodo-conversaciones .n10-row-context .n8-button{font-size:11px;min-height:24px;padding:0 2px;color:var(--n8-muted);white-space:normal;text-align:left;flex-shrink:1}
+#nodo-conversaciones .n10-row-meta{display:flex;align-items:center;gap:7px 10px;flex-wrap:wrap;font-size:11px;color:var(--n8-muted);margin-top:2px}
+#nodo-conversaciones .n10-row-meta>span{display:inline-flex;align-items:center;gap:5px}
+#nodo-conversaciones .n10-row-meta svg{width:12px;height:12px}
+#nodo-conversaciones .n10-status{display:inline-flex;align-items:center;gap:5px;color:var(--n8-muted);background:var(--n8-tint);border-radius:4px;padding:3px 6px;font-size:11px;white-space:normal}
+#nodo-conversaciones .n10-status[data-status=doing]{color:var(--n8-green)}
+#nodo-conversaciones .n10-status[data-status=waiting]{color:var(--n8-purple);background:var(--n8-purple-bg)}
+#nodo-conversaciones .n10-status[data-status=done]{color:var(--n8-green)}
+#nodo-conversaciones .n10-org{display:inline-flex;align-items:center;gap:5px;font-size:11px;color:var(--n8-muted)}
+#nodo-conversaciones .n10-org .n8-logo{width:18px;height:18px;flex-basis:18px;font-size:7px;border-radius:5px}
+#nodo-conversaciones .n10-row-side{display:grid;gap:3px;align-self:center;min-width:0}
+#nodo-conversaciones .n10-owner{display:grid;gap:3px;min-width:0}
+#nodo-conversaciones .n10-owner>small,#nodo-conversaciones .n10-row-side>small{font-size:11px;color:var(--n8-muted)}
+#nodo-conversaciones .n10-row-side .n8-person{font-size:11px;gap:7px;line-height:1.5;min-width:0}
+#nodo-conversaciones .n10-row-side .n8-avatar{width:30px;height:30px;font-size:10px;border-width:0}
+#nodo-conversaciones .n10-row-side .n8-company-dot{right:-2px;bottom:-2px}
+#nodo-conversaciones .n10-row-arrow{align-self:center;justify-self:end;min-height:30px;min-width:26px;padding:5px 3px;color:var(--n8-muted)}
+#nodo-conversaciones .n10-row-arrow svg{width:15px;height:15px}
+#nodo-conversaciones .n10-section-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:24px 0 4px}
+#nodo-conversaciones .n10-section-head h2{font-size:15px;font-weight:500}
+#nodo-conversaciones .n10-section-head>small,#nodo-conversaciones .n10-section-head>span{font-size:11px;color:var(--n8-muted)}
+#nodo-conversaciones .n10-show-more{display:flex;justify-content:center;padding:13px 0 0;border-top:1px solid var(--n8-border)}
+#nodo-conversaciones .n10-undated{border:1px dashed var(--n8-border);padding:17px;border-radius:10px;margin-top:26px}
+#nodo-conversaciones .n10-undated>.n10-section-head{margin-top:0}
+#nodo-conversaciones .n10-undated>.n10-section-head h2{color:var(--n8-muted)}
+#nodo-conversaciones .n10-undated .n10-row{grid-template-columns:28px minmax(0,1fr) minmax(90px,128px) 26px;gap:10px;padding:16px 0 8px}
+#nodo-conversaciones .n10-empty{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;padding:38px 18px;text-align:center;color:var(--n8-muted);font-size:12px}
+#nodo-conversaciones .n10-empty>svg{width:24px;height:24px;color:var(--n8-muted)}
+#nodo-conversaciones .n10-empty h3,#nodo-conversaciones .n10-empty b{color:var(--n8-ink);font-weight:500}
+#nodo-conversaciones .n10-detail{display:flex;flex-direction:column;gap:16px;margin:20px 0}
+#nodo-conversaciones .n10-detail>div{display:flex;flex-wrap:wrap;gap:9px;align-content:start;font-size:12px;overflow-wrap:anywhere}
+#nodo-conversaciones .n10-detail>h3{font-size:20px;line-height:1.5}
+#nodo-conversaciones .n10-detail>p{font-size:12px;line-height:1.8;color:var(--n8-muted)}
+#nodo-conversaciones .n10-detail>dl{display:grid;grid-template-columns:1fr;gap:13px;margin:0;padding:16px;background:var(--n8-bg);border-radius:10px}
+#nodo-conversaciones .n10-detail dt{font-size:11px;color:var(--n8-muted);margin-bottom:5px}
+#nodo-conversaciones .n10-detail dd{font-size:12px;margin:0}
+#nodo-conversaciones .n10-detail>div>small{color:var(--n8-muted);font-size:11px}
+#nodo-conversaciones .n10-detail-companies{display:flex;align-items:center;gap:10px 15px;flex-wrap:wrap;margin:14px 0}
+#nodo-conversaciones .n10-detail-companies .n10-org{font-size:12px;color:var(--n8-ink)}
+#nodo-conversaciones .n10-detail-companies .n8-logo{width:25px;height:25px;flex-basis:25px;border-radius:7px;font-size:9px}
+#nodo-conversaciones .n10-detail-audience{display:block;margin:8px 0;font-size:12px}
+#nodo-conversaciones .n10-detail-audience>summary{cursor:pointer;padding:12px 0;color:var(--n8-muted)}
+#nodo-conversaciones .n10-section-head h2>span{font-size:11px;font-weight:400;color:var(--n8-muted);margin-left:8px}
+#nodo-conversaciones .n10-detail-audience>section{display:flex;gap:9px 16px;align-items:center;flex-wrap:wrap;padding-top:15px;border-top:1px solid var(--n8-border)}
+#nodo-conversaciones .n10-detail-audience h3{display:flex;align-items:center;gap:9px;flex-basis:100%;font-size:12px;font-weight:500;margin-bottom:4px}
+#nodo-conversaciones .n10-detail-audience h3 .n8-logo{width:26px;height:26px;flex-basis:26px;font-size:9px;border-radius:7px}
+#nodo-conversaciones .n10-detail-audience .n8-person{font-size:12px;padding:3px 0}
+#nodo-conversaciones .n10-detail-audience>section>div{display:grid;gap:3px;max-width:100%}
+#nodo-conversaciones .n10-detail-audience>section>div>small{font-size:11px;color:var(--n8-muted);padding-left:43px;overflow-wrap:anywhere}
+#nodo-conversaciones .n10-actions{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:20px;padding-top:18px;border-top:1px solid var(--n8-border)}
+#nodo-conversaciones .n10-actions .n8-button{white-space:normal;max-width:100%;flex-shrink:1}
+#nodo-conversaciones .n10-form{display:grid;gap:18px;margin-top:20px}
+#nodo-conversaciones .n10-form label{display:grid;gap:7px;font-size:12px;color:var(--n8-muted);min-width:0}
+#nodo-conversaciones .n10-form input,#nodo-conversaciones .n10-form select,#nodo-conversaciones .n10-form textarea{width:100%;min-width:0;background:var(--n8-bg);color:var(--n8-ink);border:1px solid var(--n8-border);border-radius:8px;padding:10px 11px;font-size:13px;min-height:39px}
+#nodo-conversaciones .n10-form textarea{min-height:85px;resize:vertical}
+#nodo-conversaciones .n10-form input[type=checkbox]{width:16px;height:16px;min-height:0;flex-shrink:0;accent-color:var(--n8-green)}
+#nodo-conversaciones .n10-form label:has(input[type=checkbox]){display:flex;align-items:center;gap:8px}
+#nodo-conversaciones .n10-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+#nodo-conversaciones .n10-form .n10-actions{margin-top:0}
+#nodo-conversaciones[data-density=compact] .n10-row{padding-top:13px;padding-bottom:13px}
+#nodo-conversaciones[data-density=compact] .n10-row-body{gap:4px}
+#nodo-conversaciones[data-density=compact] .n10-timeline{gap:18px}
+#nodo-conversaciones[data-density=compact] .n10-weekline>button{min-height:55px;gap:3px;padding-top:6px;padding-bottom:6px}
+@media(max-width:740px){
+  #nodo-conversaciones .n10-schedule-head{align-items:flex-start;flex-wrap:wrap}
+  #nodo-conversaciones .n10-schedule-head .n8-company-title{flex-basis:100%}
+  #nodo-conversaciones .n10-row{grid-template-columns:30px minmax(0,1fr) 26px;gap:10px}
+  #nodo-conversaciones .n10-row-side{grid-column:2;grid-row:2;align-self:start;display:flex;align-items:center;flex-wrap:wrap;gap:5px 9px}
+  #nodo-conversaciones .n10-owner{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+  #nodo-conversaciones .n10-row-arrow{grid-column:3;grid-row:1 / span 2;align-self:start;margin-top:2px}
+  #nodo-conversaciones .n10-row-side .n8-avatar{width:27px;height:27px}
+  #nodo-conversaciones .n10-undated .n10-row{grid-template-columns:28px minmax(0,1fr) 26px;gap:9px}
+}
+@media(max-width:480px){
+  #nodo-conversaciones .n10-company-switch{gap:6px;margin-bottom:20px}
+  #nodo-conversaciones .n10-company-switch>button{font-size:11px;gap:6px;padding:6px 8px 6px 6px}
+  #nodo-conversaciones .n10-company-switch .n8-logo{width:24px;height:24px;flex-basis:24px}
+  #nodo-conversaciones .n10-schedule-head{gap:14px}
+  #nodo-conversaciones .n10-schedule-head .n8-company-title h1{font-size:24px}
+  #nodo-conversaciones .n10-schedule-meta{margin-bottom:18px}
+  #nodo-conversaciones .n10-schedule-toolbar{gap:13px;padding-top:17px}
+  #nodo-conversaciones .n10-schedule-toolbar>label{flex-basis:100%;justify-content:space-between}
+  #nodo-conversaciones #n10-space-filter{max-width:75%;padding-right:20px}
+  #nodo-conversaciones .n10-period{gap:8px}
+  #nodo-conversaciones .n10-period h2{font-size:15px}
+  #nodo-conversaciones .n10-kinds{gap:4px;margin:16px 0 13px}
+  #nodo-conversaciones .n10-kinds>button{padding:6px 8px;font-size:11px}
+  #nodo-conversaciones .n10-weekline{gap:3px;padding-bottom:14px;margin-bottom:15px}
+  #nodo-conversaciones .n10-weekline>button{min-height:57px;border-radius:7px;padding:7px 1px;font-size:11px}
+  #nodo-conversaciones .n10-weekline>button b,#nodo-conversaciones .n10-weekline>button strong{font-size:14px}
+  #nodo-conversaciones .n10-row{grid-template-columns:26px minmax(0,1fr) 24px;gap:8px;padding:17px 0}
+  #nodo-conversaciones .n10-type-icon{width:25px;height:27px;border-radius:7px}
+  #nodo-conversaciones .n10-type-icon svg{width:14px;height:14px}
+  #nodo-conversaciones .n10-row-title{font-size:12px}
+  #nodo-conversaciones .n10-row-meta{gap:6px 8px}
+  #nodo-conversaciones .n10-row-arrow{min-width:24px;width:24px;padding-left:2px;padding-right:2px}
+  #nodo-conversaciones .n10-undated{padding:12px}
+  #nodo-conversaciones .n10-undated .n10-row{grid-template-columns:25px minmax(0,1fr) 24px;gap:7px}
+  #nodo-conversaciones .n10-detail,#nodo-conversaciones .n10-form-grid{grid-template-columns:1fr}
+  #nodo-conversaciones .n10-detail{gap:16px}
+  #nodo-conversaciones .n10-actions{gap:8px}
+}
+@media(max-width:650px){
+ #nodo-conversaciones .n8-tabs:not(.n9-space-tabs){display:grid;grid-template-columns:1fr 1fr;gap:2px 14px}
+ #nodo-conversaciones .n8-nav{grid-template-columns:repeat(4,minmax(0,1fr)) minmax(0,1.3fr)}
+}
+@media(pointer:coarse){
+  #nodo-conversaciones .n10-company-switch>button,#nodo-conversaciones .n10-period>.n8-button,#nodo-conversaciones .n10-kinds>button{min-height:44px}
+  #nodo-conversaciones .n10-weekline>button{min-width:0;min-height:60px}
+  #nodo-conversaciones .n10-row{grid-template-columns:30px minmax(0,1fr) 44px}
+  #nodo-conversaciones .n10-row-side{grid-column:2;grid-row:2;display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+  #nodo-conversaciones .n10-row-arrow{grid-column:3;grid-row:1 / span 2;min-width:44px;width:44px;min-height:44px;align-self:start}
+  #nodo-conversaciones .n10-row-title{min-height:44px}
+  #nodo-conversaciones .n10-row-context .n8-button{min-height:44px}
+  #nodo-conversaciones .n10-undated .n10-row{grid-template-columns:25px minmax(0,1fr) 44px}
+  #nodo-conversaciones #n10-space-filter,#nodo-conversaciones .n10-form input,#nodo-conversaciones .n10-form select,#nodo-conversaciones .n10-form textarea{font-size:16px;min-height:44px}
+  #nodo-conversaciones .n10-form label:has(input[type=checkbox]){min-height:44px}
+  #nodo-conversaciones .n10-form input[type=checkbox]{min-height:0}
+}

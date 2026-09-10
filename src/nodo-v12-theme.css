@@ -1,0 +1,53 @@
+/* Charcoal direction, requested from the Skydive reference. */
+#nodo-conversaciones{--n8-bg:#111113;--n8-surface:#1b1b1e;--n8-ink:#f3f3f5;--n8-muted:#b5b4ba;--n8-border:#38383e;--n8-green:#dceac7;--n8-tint:#27282a;--n8-purple:#d9c8f4;--n8-purple-bg:#2d2639;color-scheme:dark;-webkit-font-smoothing:antialiased}
+#nodo-conversaciones .n8-shell{border-color:#303035;background:#111113}
+#nodo-conversaciones .n8-sidebar{background:#151517;color:#efeff2;border-right:1px solid #303035}
+#nodo-conversaciones .n8-wordmark{letter-spacing:4px;color:#f5f5f7}
+#nodo-conversaciones .n8-wordmark>span{color:#c5c3cd}
+#nodo-conversaciones .n8-own{background:#1d1d21;border-color:#36363d}
+#nodo-conversaciones .n8-own small,#nodo-conversaciones .n8-companies small,#nodo-conversaciones .n8-sidebar>.n8-side-label,#nodo-conversaciones .n8-side-bottom>small{color:#aaa9b1}
+#nodo-conversaciones .n8-own .n8-button{color:#dedde5}
+#nodo-conversaciones .n8-nav>button{color:#c4c3cb}
+#nodo-conversaciones .n8-nav>button.active{background:#ecebef;color:#19191d}
+#nodo-conversaciones .n8-companies>button{color:#e0dfe6}
+#nodo-conversaciones .n8-companies>button.active{background:#303035}
+#nodo-conversaciones .n8-side-bottom .n8-button{background:#242428;border-color:#414148;color:#edecf1}
+#nodo-conversaciones .n8-topbar{background:#151517;border-color:#303035}
+#nodo-conversaciones .n8-primary{background:#efeff1;border-color:#efeff1;color:#19191d}
+#nodo-conversaciones .n8-quiet{color:#dedde5}
+#nodo-conversaciones .n8-tabs>button[aria-pressed=true]{color:#f4f3f7;border-bottom-color:#f4f3f7}
+#nodo-conversaciones .n8-segments button[aria-pressed=true]{background:#dceac7;color:#252b1e;border-color:#dceac7}
+#nodo-conversaciones .n8-room.active{background:#2b2b30;border-color:#484851}
+#nodo-conversaciones .n8-room>svg,#nodo-conversaciones .n8-space-icon,#nodo-conversaciones .n8-dir-area-icon{color:#dad8e2;background:#2d2d33}
+#nodo-conversaciones .n8-space-card,#nodo-conversaciones .n8-dir-area{background:#1d1d21;border-color:#38383e;border-radius:16px}
+#nodo-conversaciones .n8-space-title{letter-spacing:-.25px}
+#nodo-conversaciones .n8-dir-eyebrow,#nodo-conversaciones .n8-dir-modal-kicker,#nodo-conversaciones .n8-dir-area-button{color:#d7d5df}
+#nodo-conversaciones .n8-small-badge{background:#342d40;color:#e0cdf7}
+#nodo-conversaciones .n8-avatar{width:36px;height:36px;background:#e1cda4;color:#32281b;border-color:var(--n8-surface);font-size:11px}
+#nodo-conversaciones .n8-avatar.andes{background:#e1cda4;color:#32281b}
+#nodo-conversaciones .n8-avatar.xertify{background:#d9ccf1;color:#36264c}
+#nodo-conversaciones .n8-avatar.divisa{background:#edc1af;color:#482a20}
+#nodo-conversaciones .n8-avatar.javeriana{background:#c2d7ef;color:#233849}
+#nodo-conversaciones .n8-avatar.rosario{background:#e9bdce;color:#4a2434}
+#nodo-conversaciones .n8-avatar.seguro{background:#c6ddc6;color:#263b29}
+#nodo-conversaciones .n8-company-dot{background:#e1cda4;color:#32281b;border-color:var(--n8-surface)}
+#nodo-conversaciones .n8-company-dot.xertify{background:#d9ccf1;color:#36264c}
+#nodo-conversaciones .n8-company-dot.divisa{background:#edc1af;color:#482a20}
+#nodo-conversaciones .n8-logo.andes{background:#e1cda4;color:#32281b;border-color:#e1cda4}
+#nodo-conversaciones .n8-logo.divisa{background:#edc1af;color:#482a20;border-color:#edc1af}
+#nodo-conversaciones .n8-logo.javeriana{background:#c2d7ef;color:#233849;border-color:#c2d7ef}
+#nodo-conversaciones .n8-logo.rosario{background:#e9bdce;color:#4a2434;border-color:#e9bdce}
+#nodo-conversaciones .n8-logo.seguro{background:#c6ddc6;color:#263b29;border-color:#c6ddc6}
+#nodo-conversaciones .n8-bubbles>button:not(.n8-more){width:35px;margin-right:-4px}
+#nodo-conversaciones .n8-owner .n8-avatar{width:26px;height:26px;font-size:9px}
+#nodo-conversaciones .n8-dir-bubble .n8-avatar{width:48px;height:48px;font-size:14px;border-width:0}
+#nodo-conversaciones .n8-dir-profile-avatar .n8-avatar{width:56px;height:56px;font-size:17px;border-width:0}
+#nodo-conversaciones .n8-dir-list-avatar .n8-avatar{width:40px;height:40px;font-size:12px}
+#nodo-conversaciones .n8-dir-bubble{margin-bottom:8px}
+#nodo-conversaciones .n8-overlay{background:#08080bb8}
+#nodo-conversaciones .n8-modal{box-shadow:0 22px 70px #0008;background:#202024;border-color:#414148}
+#nodo-conversaciones .n8-dir-list-person{background:transparent}
+#nodo-conversaciones .n8-toast{background:#e5eed8;color:#22281d;border:1px solid #cad8b8}
+#nodo-conversaciones input::placeholder,#nodo-conversaciones textarea::placeholder{color:#92919b;opacity:1}
+@media(max-width:650px){#nodo-conversaciones .n8-sidebar{border-right:0;border-bottom:1px solid #303035}#nodo-conversaciones .n8-dir-bubble .n8-avatar{width:44px;height:44px}}
+@media(pointer:coarse){#nodo-conversaciones .n8-bubbles>button:not(.n8-more){width:44px;margin:0}}

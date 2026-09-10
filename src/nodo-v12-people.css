@@ -1,0 +1,61 @@
+#nodo-conversaciones .n11-people{min-width:0}
+#nodo-conversaciones .n11-person-search{margin:0 0 16px}
+#nodo-conversaciones .n11-person-search>label,#nodo-conversaciones .n11-filters>label{display:grid;gap:7px;color:var(--n8-muted);font-size:12px;min-width:0}
+#nodo-conversaciones .n11-search-row{display:flex;gap:9px;margin-top:7px}
+#nodo-conversaciones .n11-search-input{display:flex;align-items:center;gap:9px;flex:1;min-width:0;padding:0 12px;background:var(--n8-surface);border:1px solid var(--n8-border);border-radius:10px;color:var(--n8-muted)}
+#nodo-conversaciones .n11-search-input input{width:100%;min-width:0;border:0;background:transparent;color:var(--n8-ink);min-height:44px;font:inherit;font-size:14px;padding:8px 0}
+#nodo-conversaciones .n11-search-input>svg{flex:none}
+#nodo-conversaciones .n11-search-row>.n8-button{flex:none;min-height:44px}
+#nodo-conversaciones .n11-filters{display:flex;align-items:flex-end;gap:12px;flex-wrap:wrap;margin-bottom:19px}
+#nodo-conversaciones .n11-filters>label{flex:1 1 180px}
+#nodo-conversaciones .n11-filters select{width:100%;min-width:0;max-width:100%;min-height:44px;background:var(--n8-surface);color:var(--n8-ink);border:1px solid var(--n8-border);border-radius:9px;padding:9px 12px;font:inherit;font-size:13px;text-overflow:ellipsis}
+#nodo-conversaciones .n11-filters>.n8-button{min-height:44px}
+#nodo-conversaciones .n11-result-line{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:var(--n8-muted);font-size:12px;margin-bottom:13px}
+#nodo-conversaciones .n11-people-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,215px),1fr));gap:14px}
+#nodo-conversaciones .n11-person-card{display:flex;flex-direction:column;min-width:0;background:var(--n8-surface);border:1px solid var(--n8-border);border-radius:15px;padding:18px}
+#nodo-conversaciones .n11-person-identity{display:flex;flex-direction:column;align-items:flex-start;gap:12px;text-align:left;border:0;background:transparent;color:var(--n8-ink);padding:0;cursor:pointer;min-width:0;font:inherit}
+#nodo-conversaciones .n11-person-avatar{display:flex;padding:0 4px 0 0}
+#nodo-conversaciones .n11-person-avatar .n8-avatar{width:62px;height:62px;font-size:19px;border:0}
+#nodo-conversaciones .n11-person-avatar .n8-company-dot{width:18px;height:18px;min-width:18px;font-size:9px;bottom:-2px;right:-3px}
+#nodo-conversaciones .n11-person-name{display:flex;align-items:center;gap:7px;flex-wrap:wrap;font-size:17px;font-weight:500;line-height:1.3;overflow-wrap:anywhere}
+#nodo-conversaciones .n11-person-name>small{color:var(--n8-muted);font-size:11px}
+#nodo-conversaciones .n11-person-company{display:flex;align-items:center;gap:6px;margin:9px 0 10px;color:var(--n8-muted);font-size:12px;min-width:0}
+#nodo-conversaciones .n11-person-company>.n8-logo{width:20px;height:20px;min-width:20px;border-radius:5px;font-size:8px}
+#nodo-conversaciones .n11-person-company .n8-logo img{width:100%;max-width:100%;object-fit:contain}
+#nodo-conversaciones .n11-person-role{margin:0;color:var(--n8-ink);font-size:13px;line-height:1.5;overflow-wrap:anywhere}
+#nodo-conversaciones .n11-person-area{margin:5px 0 13px;color:var(--n8-muted);font-size:12px;line-height:1.5;overflow-wrap:anywhere}
+#nodo-conversaciones .n11-shared-spaces{display:grid;gap:0;padding-top:8px;margin-top:auto;border-top:1px solid var(--n8-border)}
+#nodo-conversaciones .n11-shared-spaces>button{display:flex;align-items:center;gap:7px;min-height:44px;background:transparent;border:0;color:var(--n8-muted);text-align:left;padding:6px 0;font:inherit;font-size:12px;cursor:pointer;min-width:0}
+#nodo-conversaciones .n11-shared-spaces>button>svg{width:13px;height:13px;flex:none}
+#nodo-conversaciones .n11-shared-spaces>button>span{min-width:0;overflow-wrap:anywhere}
+#nodo-conversaciones .n11-shared-spaces small{display:block;font-size:11px;color:var(--n8-purple);margin-top:2px}
+#nodo-conversaciones .n11-shared-spaces>.n11-more-spaces{color:var(--n8-purple)}
+#nodo-conversaciones .n11-person-card>footer{display:flex;flex-wrap:wrap;gap:5px;margin-top:10px}
+#nodo-conversaciones .n11-person-card>footer .n8-button{min-height:44px;padding:8px 9px;font-size:12px}
+#nodo-conversaciones .n11-profile-button{background:transparent}
+#nodo-conversaciones .n11-message-button{background:var(--n8-tint);margin-left:auto}
+#nodo-conversaciones .n11-more-people{display:flex;justify-content:center;padding-top:20px}
+#nodo-conversaciones .n11-more-people .n8-button{min-height:44px}
+#nodo-conversaciones .n11-area-contacts{margin-top:28px}
+#nodo-conversaciones .n11-area-contacts h2{font-size:15px;font-weight:500;margin:0 0 8px}
+#nodo-conversaciones .n11-area-contact{display:flex;align-items:center;gap:12px;padding:13px 0;border-bottom:1px solid var(--n8-border);min-width:0}
+#nodo-conversaciones .n11-contact-icon{color:var(--n8-muted);display:flex}
+#nodo-conversaciones .n11-area-contact>div{flex:1;min-width:0}
+#nodo-conversaciones .n11-area-contact strong{display:block;font-size:13px;font-weight:500;overflow-wrap:anywhere}
+#nodo-conversaciones .n11-area-contact span:not(.n11-contact-icon){display:block;color:var(--n8-muted);font-size:12px;margin-top:4px}
+#nodo-conversaciones .n11-area-contact>.n8-button{min-height:44px}
+#nodo-conversaciones .n11-people-empty{padding:26px 15px;text-align:center;border:1px dashed var(--n8-border);border-radius:12px;color:var(--n8-muted)}
+#nodo-conversaciones .n11-people-empty>svg{width:23px;height:23px}
+#nodo-conversaciones .n11-profile-area{display:flex;gap:8px;align-items:center;color:var(--n8-muted);font-size:13px;margin:20px 0;overflow-wrap:anywhere}
+#nodo-conversaciones .n11-profile-area>svg{flex:none}
+#nodo-conversaciones .n11-profile-actions{margin-bottom:23px}
+#nodo-conversaciones .n11-profile-actions>.n8-button{min-height:44px}
+#nodo-conversaciones .n11-person-source{padding-top:17px;border-top:1px solid var(--n8-border);margin-top:18px;color:var(--n8-muted);font-size:12px}
+#nodo-conversaciones .n11-person-source>summary{min-height:44px;padding:9px 0;cursor:pointer}
+#nodo-conversaciones .n11-person-source>p{line-height:1.6;margin:6px 0}
+#nodo-conversaciones .n11-person-profile .n8-dir-profile-avatar>svg{width:42px;height:42px;color:var(--n8-muted)}
+#nodo-conversaciones[data-density=compact] .n11-person-card{padding:14px}
+#nodo-conversaciones[data-density=compact] .n11-person-identity{flex-direction:row;align-items:center;gap:10px}
+#nodo-conversaciones[data-density=compact] .n11-person-avatar .n8-avatar{width:44px;height:44px;font-size:14px}
+#nodo-conversaciones[data-density=compact] .n11-person-name{font-size:15px}
+@media(max-width:650px){#nodo-conversaciones .n11-people-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}#nodo-conversaciones .n11-person-card{padding:17px}#nodo-conversaciones .n11-person-identity{flex-direction:row;align-items:center}#nodo-conversaciones .n11-person-name{font-size:17px}#nodo-conversaciones .n11-area-contact{flex-wrap:wrap}#nodo-conversaciones .n11-area-contact>.n8-button{margin-left:28px}#nodo-conversaciones .n11-search-input input,#nodo-conversaciones .n11-filters select{font-size:16px}}

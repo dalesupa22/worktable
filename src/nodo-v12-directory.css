@@ -1,0 +1,71 @@
+#nodo-conversaciones .n8-directory { color:var(--n8-ink); min-width:0; }
+#nodo-conversaciones .n8-dir-heading { display:flex; gap:16px; align-items:flex-start; margin-bottom:26px; }
+#nodo-conversaciones .n8-dir-heading h2 { margin:6px 0 9px; }
+#nodo-conversaciones .n8-dir-heading p { color:var(--n8-muted); margin:0; }
+#nodo-conversaciones .n8-dir-eyebrow,
+#nodo-conversaciones .n8-dir-modal-kicker { color:var(--n8-green); display:block; }
+#nodo-conversaciones .n8-dir-company + .n8-dir-company { margin-top:28px; }
+#nodo-conversaciones .n8-dir-company-header { display:flex; align-items:baseline; justify-content:space-between; gap:10px; flex-wrap:wrap; margin-bottom:12px; }
+#nodo-conversaciones .n8-dir-company-header h2 { margin:0; }
+#nodo-conversaciones .n8-dir-company-header > span { color:var(--n8-muted); }
+#nodo-conversaciones .n8-dir-area-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+#nodo-conversaciones .n8-dir-area { display:flex; flex-direction:column; min-width:0; padding:18px; border:1px solid var(--n8-border); border-radius:16px; background:var(--n8-surface); }
+#nodo-conversaciones .n8-dir-area-header { display:flex; gap:11px; align-items:flex-start; margin-bottom:20px; }
+#nodo-conversaciones .n8-dir-area-header > div { min-width:0; }
+#nodo-conversaciones .n8-dir-area-header h3 { margin:0 0 5px; overflow-wrap:anywhere; }
+#nodo-conversaciones .n8-dir-area-header div > span { color:var(--n8-muted); }
+#nodo-conversaciones .n8-dir-area-icon { display:flex; align-items:center; justify-content:center; flex:none; width:34px; height:34px; border-radius:10px; background:var(--n8-tint); color:var(--n8-green); }
+#nodo-conversaciones .n8-dir-bubbles { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); align-items:start; gap:18px 10px; flex:1; }
+#nodo-conversaciones .n8-dir-person { display:flex; flex-direction:column; align-items:flex-start; gap:5px; min-width:0; text-align:left; background:transparent; color:var(--n8-ink); border:0; padding:0 2px; font:inherit; cursor:pointer; }
+#nodo-conversaciones .n8-dir-person strong,
+#nodo-conversaciones .n8-dir-person > span,
+#nodo-conversaciones .n8-dir-person small { max-width:100%; overflow-wrap:anywhere; }
+#nodo-conversaciones .n8-dir-bubble { display:flex; align-items:center; justify-content:center; margin-bottom:5px; min-width:44px; min-height:44px; }
+#nodo-conversaciones .n8-dir-role { color:var(--n8-muted); }
+#nodo-conversaciones .n8-dir-provenance { display:block; color:var(--n8-muted); }
+#nodo-conversaciones .n8-dir-area > footer { display:flex; align-items:center; justify-content:flex-end; border-top:1px solid var(--n8-border); margin-top:18px; padding-top:12px; }
+#nodo-conversaciones .n8-dir-area-button { max-width:100%; color:var(--n8-green); }
+#nodo-conversaciones .n8-dir-notice { display:flex; gap:9px; align-items:flex-start; color:var(--n8-muted); margin:24px 0 0; }
+#nodo-conversaciones .n8-dir-notice > svg { flex:none; margin-top:2px; }
+#nodo-conversaciones .n8-dir-notice > span { min-width:0; overflow-wrap:anywhere; }
+#nodo-conversaciones .n8-dir-empty { display:flex; gap:12px; align-items:center; color:var(--n8-muted); padding:24px 0; }
+#nodo-conversaciones .n8-dir-full-list { margin-top:14px; }
+#nodo-conversaciones .n8-dir-list-person { width:100%; display:flex; gap:12px; align-items:center; text-align:left; padding:14px 0; border:0; border-bottom:1px solid var(--n8-border); background:var(--n8-surface); color:var(--n8-ink); font:inherit; cursor:pointer; }
+#nodo-conversaciones .n8-dir-list-person:last-child { border-bottom:0; }
+#nodo-conversaciones .n8-dir-list-avatar { flex:none; display:flex; }
+#nodo-conversaciones .n8-dir-list-person-body { display:flex; flex:1; min-width:0; flex-direction:column; gap:5px; overflow-wrap:anywhere; }
+#nodo-conversaciones .n8-dir-list-person-body > span,
+#nodo-conversaciones .n8-dir-list-person-body > small { color:var(--n8-muted); }
+#nodo-conversaciones .n8-dir-list-person > svg { flex:none; color:var(--n8-muted); }
+#nodo-conversaciones .n8-dir-profile-header { display:flex; gap:16px; align-items:center; }
+#nodo-conversaciones .n8-dir-profile-avatar { flex:none; display:flex; }
+#nodo-conversaciones .n8-dir-profile-header > div { min-width:0; overflow-wrap:anywhere; }
+#nodo-conversaciones .n8-dir-profile-header h2 { margin:6px 0; }
+#nodo-conversaciones .n8-dir-profile-header p { margin:0; color:var(--n8-muted); }
+#nodo-conversaciones .n8-dir-profile-data { margin:22px 0; padding:0; }
+#nodo-conversaciones .n8-dir-profile-data > div { display:grid; grid-template-columns:120px minmax(0,1fr); gap:14px; padding:12px 0; border-bottom:1px solid var(--n8-border); }
+#nodo-conversaciones .n8-dir-profile-data dt { color:var(--n8-muted); }
+#nodo-conversaciones .n8-dir-profile-data dd { margin:0; overflow-wrap:anywhere; }
+#nodo-conversaciones .n8-dir-profile-spaces h3 { margin:0 0 6px; }
+#nodo-conversaciones .n8-dir-space-row { display:flex; align-items:center; gap:12px; justify-content:space-between; padding:14px 0; border-bottom:1px solid var(--n8-border); }
+#nodo-conversaciones .n8-dir-space-row > div { min-width:0; overflow-wrap:anywhere; }
+#nodo-conversaciones .n8-dir-space-row strong { display:block; }
+#nodo-conversaciones .n8-dir-space-row span { display:block; margin-top:5px; color:var(--n8-muted); }
+#nodo-conversaciones .n8-dir-open-space { flex:none; }
+#nodo-conversaciones .n8-dir-subtle { color:var(--n8-muted); }
+@media (max-width:780px) {
+  #nodo-conversaciones .n8-dir-area-grid { grid-template-columns:minmax(0,1fr); }
+  #nodo-conversaciones .n8-dir-bubbles { grid-template-columns:repeat(4,minmax(0,1fr)); }
+}
+@media (max-width:540px) {
+  #nodo-conversaciones .n8-dir-bubbles { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  #nodo-conversaciones .n8-dir-area { padding:16px; }
+  #nodo-conversaciones .n8-dir-profile-data > div { grid-template-columns:minmax(0,1fr); gap:6px; }
+  #nodo-conversaciones .n8-dir-profile-header { align-items:flex-start; gap:12px; }
+}
+@media (pointer:coarse) {
+  #nodo-conversaciones .n8-dir-person,
+  #nodo-conversaciones .n8-dir-list-person,
+  #nodo-conversaciones .n8-dir-area-button,
+  #nodo-conversaciones .n8-dir-open-space { min-height:44px; }
+}
