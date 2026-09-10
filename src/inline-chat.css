@@ -1,0 +1,66 @@
+#nodo-conversaciones .nodo-messaging.has-chat{display:grid;grid-template-columns:minmax(270px,.85fr) minmax(0,1.65fr);height:min(790px,calc(100dvh - 235px));min-height:540px;border:1px solid var(--n8-border);border-radius:14px;background:var(--n8-surface);overflow:hidden}
+#nodo-conversaciones .has-chat>.n12-conversations{display:flex;flex-direction:column;min-height:0;padding:16px 0 0;gap:12px;border-right:1px solid var(--n8-border)}
+#nodo-conversaciones .has-chat>.n12-conversations>form,#nodo-conversaciones .has-chat .n12-toolbar,#nodo-conversaciones .has-chat .n12-list-meta{margin:0 14px}
+#nodo-conversaciones .has-chat .n12-inbox{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;border:0;border-top:1px solid var(--n8-border);border-radius:0;scrollbar-width:thin}
+#nodo-conversaciones .has-chat .n12-company-filter{flex-basis:100%;min-width:0}
+#nodo-conversaciones .has-chat .n12-toolbar{gap:9px}
+#nodo-conversaciones .has-chat .n12-types{width:100%;justify-content:space-between}
+#nodo-conversaciones .has-chat .n12-types>button{padding:8px;font-size:12px}
+#nodo-conversaciones .has-chat .n12-row{grid-template-columns:36px minmax(0,1fr);padding:13px 14px;gap:10px}
+#nodo-conversaciones .has-chat .n12-row-end{display:none}
+#nodo-conversaciones .has-chat .n12-row-avatar .n8-avatar,#nodo-conversaciones .has-chat .n12-group-icon{width:34px;height:34px;font-size:11px}
+#nodo-conversaciones .has-chat .n12-row-title strong{font-size:14px;line-height:1.45}
+#nodo-conversaciones .has-chat .n12-row-context,#nodo-conversaciones .has-chat .n12-row-preview{font-size:12px}
+#nodo-conversaciones .has-chat .n12-kind{font-size:12px}
+#nodo-conversaciones .has-chat .n12-personal-badge{font-size:12px}
+#nodo-conversaciones .has-chat .n12-row.is-active{background:#30362b;box-shadow:inset 3px 0 0 #dceac7}
+#nodo-conversaciones .has-chat .n12-conversations>.n12-list-meta:last-child{display:none}
+#nodo-conversaciones .nodo-inline-chat{display:flex;flex-direction:column;min-height:0;background:#141416;overflow:hidden}
+#nodo-conversaciones .nodo-chat-head{display:flex;align-items:center;gap:10px;padding:18px;border-bottom:1px solid var(--n8-border);background:var(--n8-surface);flex-shrink:0}
+#nodo-conversaciones .nodo-chat-person{display:flex;align-items:center;gap:12px;flex:1;text-align:left;background:transparent;border:0;color:var(--n8-ink);padding:0;min-height:44px}
+#nodo-conversaciones .nodo-chat-person>span:last-child{display:grid;gap:4px}
+#nodo-conversaciones .nodo-chat-person strong{font-size:16px;line-height:1.4;font-weight:500;overflow-wrap:anywhere}
+#nodo-conversaciones .nodo-chat-person small{font-size:12px;line-height:1.5;color:var(--n8-muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+#nodo-conversaciones .nodo-chat-head .nodo-chat-back{padding:5px;font-size:12px}
+#nodo-conversaciones .nodo-chat-privacy{display:flex;align-items:center;gap:7px;flex-wrap:wrap;padding:10px 18px;background:#20231d;color:#dce5d1;font-size:12px;line-height:1.5}
+#nodo-conversaciones .nodo-chat-privacy>span{margin-left:auto;color:#acb5a4}
+#nodo-conversaciones .nodo-chat-log{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:22px;scrollbar-width:thin}
+#nodo-conversaciones .nodo-chat-empty{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:10px;height:100%;min-height:140px;color:var(--n8-muted)}
+#nodo-conversaciones .nodo-chat-empty>svg{width:32px;height:32px;color:#dceac7;margin-bottom:8px}
+#nodo-conversaciones .nodo-chat-empty h2{font-size:20px;font-weight:500;color:var(--n8-ink)}
+#nodo-conversaciones .nodo-chat-empty p{font-size:16px}
+#nodo-conversaciones .nodo-chat-empty small{font-size:12px;line-height:1.6;max-width:270px}
+#nodo-conversaciones .nodo-chat-date{text-align:center;font-size:12px;color:var(--n8-muted);margin-bottom:24px}
+#nodo-conversaciones .nodo-chat-message{display:flex;margin:0 0 12px}
+#nodo-conversaciones .nodo-chat-message.own{justify-content:flex-end}
+#nodo-conversaciones .nodo-chat-bubble{max-width:88%;padding:12px 16px;border-radius:14px 14px 14px 4px;background:#27272d;color:#f3f3f5;min-width:90px}
+#nodo-conversaciones .own .nodo-chat-bubble{background:#dceac7;color:#222c1b;border-radius:14px 14px 4px 14px}
+#nodo-conversaciones .nodo-chat-bubble>small{font-size:12px;opacity:.75}
+#nodo-conversaciones .nodo-chat-bubble p{font-size:16px;line-height:1.6;margin:3px 0;white-space:pre-wrap;overflow-wrap:anywhere}
+#nodo-conversaciones .nodo-chat-bubble time{display:block;text-align:right;font-size:12px;opacity:.72}
+#nodo-conversaciones .nodo-chat-composer{padding:14px 18px;border-top:1px solid var(--n8-border);background:var(--n8-surface);flex-shrink:0}
+#nodo-conversaciones .nodo-chat-sending-as{display:flex;align-items:center;gap:7px;color:var(--n8-muted);font-size:12px;line-height:1.5;margin-bottom:10px;flex-wrap:wrap}
+#nodo-conversaciones .nodo-chat-sending-as .n8-logo{width:20px;height:20px;flex-basis:20px;border-radius:5px}
+#nodo-conversaciones .nodo-chat-label{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+#nodo-conversaciones .nodo-chat-input-row{display:flex;align-items:flex-end;gap:10px}
+#nodo-conversaciones .nodo-chat-input-row textarea{flex:1;width:100%;min-height:52px;max-height:160px;resize:vertical;border:1px solid var(--n8-border);border-radius:12px;background:#141416;color:var(--n8-ink);padding:12px;font-size:16px;line-height:1.5}
+#nodo-conversaciones .nodo-chat-input-row button{min-height:48px;border-radius:12px;flex-shrink:0}
+#nodo-conversaciones .nodo-chat-input-row button:disabled{opacity:.45;cursor:default}
+#nodo-conversaciones .nodo-chat-composer footer{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;margin-top:9px;color:var(--n8-muted)}
+#nodo-conversaciones .nodo-chat-composer footer small{font-size:12px;line-height:1.5}
+@media(max-width:1200px) and (min-width:1001px){#nodo-conversaciones .nodo-chat-profile{font-size:0;padding:6px}#nodo-conversaciones .nodo-chat-head{gap:8px;padding:14px}#nodo-conversaciones .nodo-messaging.has-chat{grid-template-columns:280px minmax(0,1fr)}}
+@media(max-width:1000px){
+ #nodo-conversaciones[data-chat-open=true] .n8-view-banner,#nodo-conversaciones[data-chat-open=true] .n8-sidebar,#nodo-conversaciones[data-chat-open=true] .n8-topbar,#nodo-conversaciones[data-chat-open=true] .nodo-demo-banner,#nodo-conversaciones[data-chat-open=true] .n8-main>.n8-heading,#nodo-conversaciones[data-chat-open=true] .n8-main>.n8-tabs{display:none}
+ #nodo-conversaciones[data-chat-open=true] .n8-shell{display:block;min-height:100dvh}
+ #nodo-conversaciones[data-chat-open=true] .n8-main{padding:0}
+ #nodo-conversaciones .nodo-messaging.has-chat{display:block;height:100dvh;min-height:380px;border:0;border-radius:0}
+ #nodo-conversaciones .has-chat>.n12-conversations{display:none}
+ #nodo-conversaciones .nodo-inline-chat{height:100%;min-height:0}
+ #nodo-conversaciones .nodo-chat-head{padding:14px 12px;gap:9px}
+ #nodo-conversaciones .nodo-chat-log{padding:18px 14px}
+ #nodo-conversaciones .nodo-chat-composer{padding:12px 14px calc(12px + env(safe-area-inset-bottom))}
+ #nodo-conversaciones .nodo-chat-profile{font-size:0;padding:8px;min-width:40px}
+ #nodo-conversaciones .nodo-chat-privacy>span{display:none}
+ #nodo-conversaciones .nodo-chat-composer footer small:first-child{display:none}
+}
+@media(max-width:380px){#nodo-conversaciones .nodo-chat-person{gap:8px}#nodo-conversaciones .nodo-chat-person strong{font-size:14px}#nodo-conversaciones .nodo-chat-input-row button span{display:none}#nodo-conversaciones .nodo-chat-input-row button{width:46px;padding:10px}#nodo-conversaciones .nodo-chat-profile{display:none}}

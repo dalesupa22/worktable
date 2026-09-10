@@ -7,7 +7,7 @@ for marker,name in [('DATA','data'),('DIRECTORY','directory'),('INBOX','inbox'),
  content=(s/f'nodo-v12-{name}.js').read_text()
  if marker=='DATA': content='const xertifyLogo='+json.dumps((s/'xertify-logo.txt').read_text())+';\n'+content
  js=js.replace('/*__'+marker+'__*/',content)
-css='\n'.join((s/f'nodo-v12-{name}.css').read_text() for name in ['style','directory','theme','calendar','navigation','schedule','people','chrome','conversations'])+'\n'+(s/'standalone.css').read_text()
+css='\n'.join((s/f'nodo-v12-{name}.css').read_text() for name in ['style','directory','theme','calendar','navigation','schedule','people','chrome','conversations'])+'\n'+(s/'standalone.css').read_text()+'\n'+(s/'inline-chat.css').read_text()
 (d/'app.js').write_text(js)
 (d/'app.css').write_text(css)
 head='''<!doctype html>
@@ -17,7 +17,7 @@ head='''<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="no-referrer">
 <meta name="robots" content="noindex,nofollow">
-<meta name="description" content="Prototipo privado de NODO. Conversaciones, personas y trabajo con tus equipos y empresas.">
+<meta name="description" content="Prototipo interactivo de NODO. Conversaciones, personas y trabajo con tus equipos y empresas.">
 <meta name="theme-color" content="#111113">
 <title>NODO · Tu red de trabajo</title>
 <link rel="stylesheet" href="/app.css">
